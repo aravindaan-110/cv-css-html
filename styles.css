@@ -1,0 +1,319 @@
+@import url('https: //fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+body {
+    background: #B8DFD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #E8F6EF;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.container .left_side {
+    position: relative;
+    background: #4C4C6D;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+.profileText .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .right_side {
+    position: relative;
+    background: #E8F6EF;
+    padding: 20px;
+
+}
+
+.profileText h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.profileText h2 span {
+    font-size: 0.5em;
+    color: #FFE194;
+    font-weight: 300;
+
+}
+
+.contactInfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul {
+    color: white;
+    position: relative;
+    font-size: small;
+}
+
+.contactInfo li {
+    color: white;
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo h3 {
+    color: white;
+    text-align: center;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: wheat;
+}
+
+.contactInfo ul li .text {
+    font-weight: 500;
+
+
+}
+
+.contactInfo a:visited {
+    color: white;
+}
+
+.contactInfo a:active {
+    color: white;
+}
+
+.contactInfo a:link {
+    color: white;
+}
+
+.contactInfo a:hover {
+    color: #FFE194;
+}
+
+.contactInfo h3 {
+    text-transform: uppercase;
+}
+
+.contactInfo ul li span {
+    position: relative;
+    color: white;
+    font-weight: 300;
+}
+
+.title_1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.Education {
+    padding-bottom: 20px;
+}
+
+.Education ul li {
+    color: white;
+    text-transform: uppercase;
+}
+
+.Education li {
+    margin-bottom: 15px;
+}
+
+.Education h5 {
+    color: #FFE194;
+    font-size: 15px;
+}
+
+.Education h4 {
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.languages ul li {
+    list-style: none;
+}
+
+.languages h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.languages ul li .text {
+    color: white;
+    font-weight: 1000;
+}
+
+.languages .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #8a8a8a;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.languages .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #FFE194;
+
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 38px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about a:visited {
+    color: #4C4C6D;
+}
+
+.about a:link {
+    color: #4C4C6D;
+}
+
+.about a:hover {
+    color: #FFE194;
+}
+
+.about h4 {
+    color: grey;
+    font-size: smaller;
+    padding-left: 20px;
+}
+
+.about h5 {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.about li {
+    margin-left: 20px;
+}
+
+.about p {
+    color: grey;
+    font-size: smaller;
+    padding-left: 20px;
+}
+
+.skills .box {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box .percent {
+    position: relative;
+    margin-left: 20px;
+    height: 10px;
+    padding-left: 30px;
+    background: white;
+
+}
+
+.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #4C4C6D;
+
+}
+
+.skills .title2 {
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
