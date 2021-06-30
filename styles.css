@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #B8DFD8;
+    background: #E1E8EB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,15 +22,17 @@ body {
     margin: 50px;
     max-width: 1000px;
     min-height: 1000px;
-    background: #E8F6EF;
+    background: #7952B3;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
 }
 
+
+
 .container .left_side {
     position: relative;
-    background: #4C4C6D;
+    background: #343A40;
     padding: 40px;
     padding-bottom: 20px;
 }
@@ -65,7 +67,7 @@ body {
 
 .container .right_side {
     position: relative;
-    background: #E8F6EF;
+    background: #FAF3F3;
     padding: 20px;
 
 }
@@ -83,7 +85,7 @@ body {
 
 .profileText h2 span {
     font-size: 0.5em;
-    color: #FFE194;
+    color: #FFC107;
     font-weight: 300;
 
 }
@@ -127,7 +129,7 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: wheat;
+    color: #FFC107;
 }
 
 .contactInfo ul li .text {
@@ -149,7 +151,7 @@ body {
 }
 
 .contactInfo a:hover {
-    color: #FFE194;
+    color: #FFC107;
 }
 
 .contactInfo h3 {
@@ -185,7 +187,7 @@ body {
 }
 
 .Education h5 {
-    color: #FFE194;
+    color: #FFC107;
     font-size: 15px;
 }
 
@@ -224,7 +226,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #FFE194;
+    background: #FFC107;
 
 }
 
@@ -252,7 +254,7 @@ body {
 }
 
 .about a:hover {
-    color: #FFE194;
+    color: #185ADB;
 }
 
 .about h4 {
